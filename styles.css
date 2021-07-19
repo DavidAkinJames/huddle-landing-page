@@ -1,12 +1,56 @@
 /* Variables */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap');
 
-body {
-  font-family: 'Open Sans', sans-serif;
-  margin: 0;
-  padding: 0;
+
+
+
+/* #######Headings#######
+font-family: 'Poppins', sans-serif;
+font-weight: 600 */
+
+
+/* ########body
+font-family: 'Open Sans', sans-serif;
+font-weight: 400, 600; */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&display=swap');
+
+
+:root {
+  --color-1: hsl(193, 100%, 96%);
+  --color-2: hsl(192, 100%, 9%);
+  --color-3: hsl(208, 11%, 55%);
+  --color-button: hsl(322, 100%, 66%);
 }
-    
- 
+  
+ * {
+   margin: 0;
+   box-sizing: border-box;
+ }
+
+ header > button {
+   border-radius: 3em;
+   border-style: none;
+   background-color: white;
+   box-shadow: 0px 0px 5px 1px rgba(218, 67, 167, 0.829);
+   color: pink;
+   font-family: 'Open Sans', sans-serif;
+   font-weight: 400;
+   font-size: 12px;
+   width: 6rem;
+   padding: 0.3rem 0;
+ }
+
+h1,h2 {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 600;
+  color: var(--color-2);
+}
+
+
+
+
+
+ /* Foot */
 .attribution {
   font-size: 11px;
   text-align: center;
